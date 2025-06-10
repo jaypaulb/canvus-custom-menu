@@ -1,0 +1,3878 @@
+tooltip: 'Custom Menu'
+icon: 'icons/custom-menu.png'
+items:
+  # Notes Section
+  - tooltip: 'Notes'
+    icon: 'icons/note.png'
+    items:
+      # Rainbow Notes Example
+      - tooltip: 'Rainbow Notes Stack'
+        icon: 'icons/rainbow-notes-stack.png'
+        actions:
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'red'
+              coordinate-offset: 'finger'
+              location: 0, 0
+              size: 150, 150
+              text: 'Red Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'orange'
+              coordinate-offset: 'finger'
+              location: 120, -50
+              size: 150, 150
+              text: 'Orange Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'yellow'
+              coordinate-offset: 'finger'
+              location: 240, -100
+              size: 150, 150
+              text: 'Yellow Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'green'
+              coordinate-offset: 'finger'
+              location: 360, -150
+              size: 150, 150
+              text: 'Green Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'blue'
+              coordinate-offset: 'finger'
+              location: 480, -100
+              size: 150, 150
+              text: 'Blue Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'indigo'
+              coordinate-offset: 'finger'
+              location: 600, -50
+              size: 150, 150
+              text: 'Indigo Note'
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'violet'
+              coordinate-offset: 'finger'
+              location: 720, 0
+              size: 150, 150
+              text: 'Violet Note'
+
+      # Deloitte Notes Section
+      - tooltip: 'Deloitte Notes'
+        icon: 'icons/deloitte.png'
+        items:
+          # Blue Colors
+          - tooltip: 'Blue Notes'
+            icon: 'icons/note-deloitte-012169.png'
+            items:
+              - tooltip: 'Blue 6 (Dark Blue)'
+                icon: 'icons/note-deloitte-012169.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#012169'
+                      size: 300, 300
+                      text: |
+                        Blue 6 (Dark Blue)
+                        PMS 280
+                        RGB: 1, 33, 105
+                        CMYK: 100, 85, 5, 22
+              - tooltip: 'Blue 4'
+                icon: 'icons/note-deloitte-0076A8.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#0076A8'
+                      size: 300, 300
+                      text: |
+                        Blue 4
+                        PMS 7690
+                        RGB: 0, 118, 168
+                        CMYK: 95, 41, 10, 0
+              - tooltip: 'Blue 3'
+                icon: 'icons/note-deloitte-00A3E0.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#00A3E0'
+                      size: 300, 300
+                      text: |
+                        Blue 3
+                        PMS 299
+                        RGB: 0, 163, 224
+                        CMYK: 86, 8, 0, 0
+              - tooltip: 'Blue 2'
+                icon: 'icons/note-deloitte-62B5E5.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#62B5E5'
+                      size: 300, 300
+                      text: |
+                        Blue 2
+                        PMS 2915
+                        RGB: 98, 181, 229
+                        CMYK: 60, 9, 0, 0
+              - tooltip: 'Teal 5'
+                icon: 'icons/note-deloitte-0097A9.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#0097A9'
+                      size: 300, 300
+                      text: |
+                        Teal 5
+                        PMS 7711
+                        RGB: 0, 151, 169
+                        CMYK: 98, 0, 28, 4
+
+          # Green Colors
+          - tooltip: 'Green Notes'
+            icon: 'icons/note-deloitte-046A38.png'
+            items:
+              - tooltip: 'Green 7 (Dark Green)'
+                icon: 'icons/note-deloitte-2C5234.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#2C5234'
+                      size: 300, 300
+                      text: |
+                        Green 7 (Dark Green)
+                        PMS 350
+                        RGB: 44, 82, 52
+                        CMYK: 80, 21, 79, 64
+              - tooltip: 'Green 6'
+                icon: 'icons/note-deloitte-046A38.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#046A38'
+                      size: 300, 300
+                      text: |
+                        Green 6
+                        PMS 349
+                        RGB: 4, 106, 56
+                        CMYK: 90, 12, 95, 40
+              - tooltip: 'Green 4'
+                icon: 'icons/note-deloitte-43B02A.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#43B02A'
+                      size: 300, 300
+                      text: |
+                        Green 4
+                        PMS 361
+                        RGB: 67, 176, 42
+                        CMYK: 77, 0, 100, 0
+              - tooltip: 'Green 2'
+                icon: 'icons/note-deloitte-C4D600.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#C4D600'
+                      size: 300, 300
+                      text: |
+                        Green 2
+                        PMS 382
+                        RGB: 196, 214, 0
+                        CMYK: 28, 0, 100, 0
+              - tooltip: 'Deloitte Green'
+                icon: 'icons/note-deloitte-86BC25.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#86BC25'
+                      size: 300, 300
+                      text: |
+                        Deloitte Green
+                        PMS 368
+                        RGB: 134, 188, 37
+                        CMYK: 55, 0, 100, 0
+
+          # Grey Colors
+          - tooltip: 'Grey Notes'
+            icon: 'icons/note-deloitte-53565A.png'
+            items:
+              - tooltip: 'Black'
+                icon: 'icons/note-deloitte-000000.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#000000'
+                      size: 300, 300
+                      text: |
+                        Black
+                        PMS Black
+                        RGB: 0, 0, 0
+                        CMYK: 0, 0, 0, 100
+              - tooltip: 'Cool Gray 11'
+                icon: 'icons/note-deloitte-53565A.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#53565A'
+                      size: 300, 300
+                      text: |
+                        Cool Gray 11
+                        PMS Cool Gray 11
+                        RGB: 83, 86, 90
+                        CMYK: 44, 34, 22, 77
+              - tooltip: 'Cool Gray 9'
+                icon: 'icons/note-deloitte-75787B.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#75787B'
+                      size: 300, 300
+                      text: |
+                        Cool Gray 9
+                        PMS Cool Gray 9
+                        RGB: 117, 120, 123
+                        CMYK: 30, 22, 17, 57
+              - tooltip: 'Cool Gray 7'
+                icon: 'icons/note-deloitte-97999B.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#97999B'
+                      size: 300, 300
+                      text: |
+                        Cool Gray 7
+                        PMS Cool Gray 7
+                        RGB: 151, 153, 155
+                        CMYK: 20, 14, 12, 40
+              - tooltip: 'Cool Gray 4'
+                icon: 'icons/note-deloitte-BBBCBC.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#BBBCBC'
+                      size: 300, 300
+                      text: |
+                        Cool Gray 4
+                        PMS Cool Gray 4
+                        RGB: 187, 188, 188
+                        CMYK: 12, 8, 9, 23
+              - tooltip: 'Cool Gray 2'
+                icon: 'icons/note-deloitte-D0D0CE.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#D0D0CE'
+                      size: 300, 300
+                      text: |
+                        Cool Gray 2
+                        PMS Cool Gray 2
+                        RGB: 208, 208, 206
+                        CMYK: 5, 3, 5, 11
+              - tooltip: 'White'
+                icon: 'icons/note-deloitte-FFFFFF.png'
+                actions:
+                  - name: 'create'
+                    parameters:
+                      type: 'note'
+                      color: '#FFFFFF'
+                      size: 300, 300
+                      text: |
+                        White
+                        RGB: 255, 255, 255
+                        CMYK: 0, 0, 0, 0
+
+  # Browser Section
+  - tooltip: 'Web Browsers'
+    icon: 'icons/more-browsers.png'
+    items:
+      # Standard Sizes
+      - tooltip: 'Standard Sizes'
+        icon: 'icons/monitor.png'
+        items:
+          - tooltip: 'HD (1920x1080)'
+            icon: 'icons/16-9.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com'
+                  size: '1920px, 1080px'
+                  scale: 0.33
+          - tooltip: '4K (3840x2160)'
+            icon: 'icons/16-9.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/hardware/decca'
+                  size: '3840px, 2160px'
+                  scale: 0.33
+          - tooltip: 'Ultrawide (5120x2160)'
+            icon: 'icons/21-9.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com'
+                  size: '5120px, 2160px'
+                  scale: 0.33
+          - tooltip: '5x1 (5400x1920)'
+            icon: 'icons/mt-sizes.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com'
+                  size: '5400px, 1920px'
+                  scale: 0.33
+          - tooltip: '3x2 (5760x2160)'
+            icon: 'icons/mt-sizes.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com'
+                  size: '5760px, 2160px'
+                  scale: 0.33
+
+      # Split Layouts
+      - tooltip: 'Split Layouts'
+        icon: 'icons/view-quilt.png'
+        items:
+          - tooltip: 'Side by Side'
+            icon: 'icons/side-by-side.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/software/canvus'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '5% 5%'
+                  size: '45% 90%'
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/software/showcase'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '50% 5%'
+                  size: '45% 90%'
+          - tooltip: 'Quad Split'
+            icon: 'icons/quad-split.png'
+            actions:
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '5% 5%'
+                  size: '45% 45%'
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/hardware/decca'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '50% 5%'
+                  size: '45% 45%'
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/software/canvus'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '5% 50%'
+                  size: '45% 45%'
+              - name: 'create'
+                parameters:
+                  type: 'browser'
+                  url: 'https://multitaction.com/products/software/showcase'
+                  coordinate-system: 'viewport'
+                  coordinate-offset: 'none'
+                  location: '50% 50%'
+                  size: '45% 45%'
+
+  # Images Section
+  - tooltip: 'Images'
+    icon: 'icons/image-folder.png'
+    items:
+      - tooltip: 'Test Image'
+        icon: 'icons/image-file.png'
+        actions:
+          - name: 'create'
+            parameters:
+              type: 'image'
+              source: 'content/test_image.jpg'
+              scale: 0.33
+
+  # Videos Section
+  - tooltip: 'Videos'
+    icon: 'icons/video-folder.png'
+    items:
+      - tooltip: 'Test Video'
+        icon: 'icons/video-file.png'
+        actions:
+          - name: 'create'
+            parameters:
+              type: 'video'
+              source: 'content/test_video.mp4'
+              scale: 0.5
+
+  # PDFs Section
+  - tooltip: 'PDFs'
+    icon: 'icons/docs-folder.png'
+    items:
+      - tooltip: 'Test PDF'
+        icon: 'icons/docs-file.png'
+        actions:
+          - name: 'create'
+            parameters:
+              type: 'pdf'
+              source: 'content/test_pdf.pdf'
+              scale: 0.33 
+  
+  # Tasks Section
+  - tooltip: 'Tasks'
+    icon: 'icons/tasks-folder.png'
+    items:
+      # ======================================================================
+      # Task 1: SWOT Analysis
+      # ======================================================================
+      # Expected outcome: A collaborative SWOT analysis with color-coded
+      # notes for each quadrant (Strengths, Weaknesses, Opportunities, Threats)
+      # 
+      # Implementation: 
+      # - Central title note with SWOT Analysis
+      # - 2x2 grid of semi-transparent notes for each quadrant
+      # - Color-coded note stacks in each corner:
+      #   * Green notes (top-left): Strengths
+      #   * Red notes (top-right): Weaknesses
+      #   * Blue notes (bottom-left): Opportunities
+      #   * Purple notes (bottom-right): Threats
+      # ======================================================================
+      - tooltip: 'SWOT Analysis'
+        icon: 'icons/1-swot.png'
+        actions:
+          # Title Note (Instructions)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                SWOT ANALYSIS
+                Use this template to identify Strengths, Weaknesses, Opportunities, and Threats. Create additional notes by cloning the base notes on each side.
+              pinned: true
+
+          # Quadrant 1 - Top Left - Strengths (Light Pink/Red)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6b3b31a'  # Light pink with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 10% 12%
+              size: 40% 40%
+              scale: 1
+              text: |
+                STRENGTHS
+                
+                What are you doing well?
+                What sets you apart?
+                What are your good qualities?
+              pinned: true
+          
+          # Quadrant 2 - Top Right - Weaknesses (Light Yellow/Orange)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#f2d6991a'  # Light yellow with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 12%
+              size: 40% 40%
+              scale: 1
+              text: |
+                WEAKNESSES
+                
+                Where do you need to improve?
+                Are resources adequate?
+                What do others do better than you?
+              pinned: true
+              
+          # Quadrant 3 - Bottom Left - Opportunities (Light Green/Mint)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#b3d9c61a'  # Light green with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 10% 52%
+              size: 40% 40%
+              scale: 1
+              text: |
+                OPPORTUNITIES
+                
+                What are your goals?
+                Are demands shifting?
+                How can it be improved?
+              pinned: true
+  
+          # Quadrant 4 - Bottom Right - Threats (Light Orange/Peach)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#f2c1b31a'  # Light peach with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 52%
+              size: 40% 40%
+              scale: 1
+              text: |
+                THREATS
+                
+                What are the blockers you're facing?
+                What are factors outside of your control?
+              pinned: true
+              
+          # Left Side Note Stacks (2 stacks)
+          # Stack 1 - Top Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                Clone for more notes
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+              
+          # Stack 2 - Bottom Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+              
+          # Right Side Note Stacks (2 stacks)
+          # Stack 1 - Top Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          
+          # Stack 2 - Bottom Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+      
+      # ======================================================================
+      # Task 2: Business Model Canvas
+      # ======================================================================
+      # Expected outcome: A collaborative business model canvas with notes
+      # for each of the 9 sections of the canvas
+      # 
+      # Implementation: 
+      # - Notes arranged in a 5x3 grid (5 columns at 20% each, 3 rows at 30% each)
+      # - Each section sized appropriately based on the standard canvas design
+      # - One note per section with guiding questions
+      # 
+      # NB: Implemented with notes only (no template image required)
+      # ======================================================================
+      - tooltip: 'Business Model Canvas'
+        icon: 'icons/2-business-model.png'
+        actions:
+          # Title Note
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 10%
+              scale: 1
+              text: |
+                BUSINESS MODEL CANVAS
+                Use this canvas to map out your business model. Each section contains guiding questions to help you complete it.   Replace the text in each section with your own content.
+              pinned: true
+
+          # Note 1: Key Partners (top-left, tall)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffcc99'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 12%
+              size: 20% 60%
+              scale: 1
+              text: |
+                Key Partners
+                
+                Who are your key partners/suppliers?
+                What are the motivators for the partnerships?
+                Which key activities do partners perform?
+              pinned: true
+              
+          # Note 2: Key Activities (top-middle-left)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffff99'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 21% 12%
+              size: 20% 30%
+              scale: 1
+              text: |
+                Key Activities
+                
+                What key activities do our value propositions require?
+                Our distribution channels?
+                Customer relationships?
+                Revenue streams?
+              pinned: true
+              
+          # Note 3: Value Propositions (center, tall)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#99ff99'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 41% 12%
+              size: 20% 60%
+              scale: 1
+              text: |
+                Value Propositions
+                
+                What value do we deliver to the customer?
+                Which customer problems are we helping to solve?
+                What bundles of products and services are we offering?
+                Which customer needs are we satisfying?
+              pinned: true
+              
+          # Note 4: Customer Relationships (top-middle-right)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#99ffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 61% 12%
+              size: 20% 30%
+              scale: 1
+              text: |
+                Customer Relationships
+                
+                What type of relationship does each customer segment expect?
+                Which ones have we established?
+                How costly are they?
+                How are they integrated with the rest of our business model?
+              pinned: true
+              
+          # Note 5: Customer Segments (top-right, tall)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9999ff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 79% 12%
+              size: 20% 60%
+              scale: 1
+              text: |
+                Customer Segments
+                
+                For whom are we creating value?
+                Who are our most important customers?
+                What are their archetypes?
+              pinned: true
+              
+          # Note 6: Key Resources (middle-bottom-left)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff99ff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 21% 42%
+              size: 20% 30%
+              scale: 1
+              text: |
+                Key Resources
+                
+                What key resources do our value propositions require?
+                Our distribution channels?
+                Customer relationships?
+                Revenue streams?
+              pinned: true
+              
+          # Note 7: Channels (middle-bottom-right)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9999'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 61% 42%
+              size: 20% 30%
+              scale: 1
+              text: |
+                Channels
+                
+                Through which channels do our customer segments want to be reached?
+                How are we reaching them now?
+                How are our channels integrated?
+                Which ones work best?
+                Which ones are most cost-efficient?
+              pinned: true
+              
+          # Note 8: Cost Structure (bottom-left, wide)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#cccccc'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 72%
+              size: 49% 20%
+              scale: 1
+              text: |
+                Cost Structure
+                
+                What are the most important costs inherent in our business model?
+                Which key resources are most expensive?
+                Which key activities are most expensive?
+              pinned: true
+              
+          # Note 9: Revenue Streams (bottom-right, wide)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#dddddd'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 72%
+              size: 49% 20%
+              scale: 1
+              text: |
+                Revenue Streams
+                
+                For what value are our customers willing to pay?
+                For what do they currently pay?
+                How are they currently paying?
+                How would they prefer to pay?
+                How much does each revenue stream contribute to overall revenues?
+              pinned: true
+      
+      # ======================================================================
+      # Task 3: Stakeholder Mapping
+      # ======================================================================
+      # Expected outcome: A stakeholder map with notes positioned according to
+      # their level of interest and influence
+      # 
+      # Implementation: 
+      # - 2x2 grid of semi-transparent notes for each quadrant
+      # - Color-coded note stacks for stakeholder entries
+      # 
+      # NB: Implemented with notes only (no template image required)
+      # ======================================================================
+      - tooltip: 'Stakeholder Mapping'
+        icon: 'icons/3-stakeholder-map.png'
+        actions:
+          # Title Note
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                STAKEHOLDER MAPPING
+                Identify all stakeholders affected by or interested in the project. Position each stakeholder based on their level of interest and influence. Determine appropriate engagement strategies for each quadrant.
+              pinned: true
+
+          # Horizontal Axis Label
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'transparent'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 42.5% 92%
+              size: 15% 5%
+              scale: 1
+              text: |
+                INTEREST OF STAKEHOLDERS →
+              pinned: true
+              
+          # Vertical Axis Label - Single note with stacked letters
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: 'transparent'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 15% 32%
+              size: 5% 36%
+              scale: 1
+              text: |
+                ↑
+
+                E
+                C
+                N
+                E
+                U
+                L
+                F
+                N
+                I
+
+                R
+                E
+                D
+                L
+                O
+                H
+                E
+                K
+                A
+                T
+                S
+              pinned: true
+
+          # Quadrant 1 - Top Left - Meet Their Needs (Pink/Light Red)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6909a1a'  # Pink with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 20% 20%
+              size: 30% 35%
+              scale: 1
+              text: |
+                MEET THEIR NEEDS
+                
+                - engage & consult on interest area
+                - try to increase level of interest
+                - aim to move into right hand box
+              pinned: true
+              
+          # Quadrant 2 - Top Right - Key Player (Dark Red)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9916231a'  # Dark red with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 20%
+              size: 30% 35%
+              scale: 1
+              text: |
+                KEY PLAYER
+                
+                - key players focus efforts on this group
+                - involve in governance/decision making bodies
+                - engage & consult regularly
+              pinned: true
+              
+          # Quadrant 3 - Bottom Left - Least Important (Light Gray)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#d3d3d31a'  # Light gray with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 20% 55%
+              size: 30% 35%
+              scale: 1
+              text: |
+                LEAST IMPORTANT
+                
+                - inform via general communications: newsletters, website, mail shots
+                - aim to move into right hand box
+              pinned: true
+              
+          # Quadrant 4 - Bottom Right - Show Consideration (Dark Gray)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6666661a'  # Dark gray with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 55%
+              size: 30% 35%
+              scale: 1
+              text: |
+                SHOW CONSIDERATION
+                
+                - make use of interest through involvement in low risk areas
+                - keep informed & consult on interest area
+                - potential supporter/goodwill ambassador
+              pinned: true
+
+          # Left Side Note Stacks (2 stacks)
+          # Stack 1 - Top Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+              
+          # Stack 2 - Bottom Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+              
+          # Right Side Note Stacks (2 stacks)
+          # Stack 1 - Top Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+          
+          # Stack 2 - Bottom Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 86% 78%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name:
+                Role:
+                Interest Level:
+                Influence Level:
+                Key Concerns:
+              pinned: false
+
+          # Template Note (Created last to be on top)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 12% 20%
+              scale: 1
+              text: |
+                Name: [Stakeholder Name]
+                Role: [Role/Position]
+                Interest Level: [High/Medium/Low]
+                Influence Level: [High/Medium/Low]
+                Key Concerns: [List concerns]
+              pinned: true
+      
+      # ======================================================================
+      # Task 4: Process Mapping
+      # ======================================================================
+      # Expected outcome: A visual representation of a process flow with
+      # start/end points, process steps, decision points, and connections
+      # 
+      # Implementation: 
+      # - Color-coded notes for different process elements:
+      #   * Blue notes: Process steps
+      #   * Orange/Red notes: Inputs/Outputs
+      #   * Gray notes: Timing elements
+      #   * Purple notes: Databases
+      # ======================================================================
+      - tooltip: 'Process Mapping'
+        icon: 'icons/4-process-mapping.png'
+        actions:
+          # Title and Instructions
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                PROCESS MAPPING
+                This template recreates a billing and payment process flow. Use blue notes for process steps, orange/red notes for inputs/outputs, gray notes for timing elements, and purple notes for databases. You can add arrows between notes to show the flow.
+              pinned: true
+
+          # Guidance Note
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 12%
+              size: 23% 25%
+              scale: 1
+              text: |
+                GUIDANCE
+                
+                1. Start with timing elements
+                2. Add process steps in blue
+                3. Connect with inputs/outputs
+                4. Link to databases when needed
+                5. Use arrows to show flow
+                
+                TIP: Clone notes by dragging
+                while holding Shift key
+              pinned: true
+
+          # Color Key
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 39%
+              size: 23% 8%
+              scale: 1
+              text: |
+                Process Steps
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 48%
+              size: 23% 8%
+              scale: 1
+              text: |
+                Input Requests
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 57%
+              size: 23% 8%
+              scale: 1
+              text: |
+                Outputs/Results
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#483698'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 66%
+              size: 23% 8%
+              scale: 1
+              text: |
+                Timing Elements
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#470A68'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 75% 75%
+              size: 23% 8%
+              scale: 1
+              text: |
+                Databases
+              pinned: true
+              
+          # Column Headers
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue for consistency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 12%
+              size: 15% 5%
+              scale: 1
+              text: |
+                Billing
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue for consistency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 12%
+              size: 15% 5%
+              scale: 1
+              text: |
+                ERP System
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue for consistency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 12%
+              size: 15% 5%
+              scale: 1
+              text: |
+                Cash Applications
+              pinned: true
+              
+          # Billing Column
+          # Timing Element (Gray Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#483698'  # KPMG Secondary Blue for timing
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 18%
+              size: 15% 5%
+              scale: 1
+              text: |
+                Each morning
+              pinned: true
+              
+          # Request billing due list (Red Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'  # KPMG Red
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 24%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Request
+                billing due list
+              pinned: true
+              
+          # Billing due list and totals (Orange Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # KPMG Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 33%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Billing due list
+                and totals
+              pinned: true
+              
+          # Record totals (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 42%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Record totals
+              pinned: true
+              
+          # Billing Information Tool (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 51%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Billing Information
+                Tool
+              pinned: true
+              
+          # Request billing program (Red Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'  # KPMG Red
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 60%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Request
+                billing program
+              pinned: true
+              
+          # Invoice totals (Orange Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # KPMG Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 69%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Invoice totals
+              pinned: true
+              
+          # Reconcile totals (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Reconcile totals
+              pinned: true
+              
+          # ERP System Column
+          # Display billing due list and totals (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 24%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Display billing due
+                list and totals
+              pinned: true
+              
+          # Enterprise database (Purple Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#470A68'  # KPMG Purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 33%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Enterprise
+                database
+              pinned: true
+              
+          # Prepare invoice records (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 42%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Prepare invoice
+                records, display
+                totals
+              pinned: true
+              
+          # Update sales order (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 53%
+              size: 15% 15%
+              scale: 1
+              text: |
+                Update sales order,
+                close billing due list,
+                create send invoice,
+                display job completed
+              pinned: true
+              
+          # Cash applications Column
+          # Payment Receipt (Blue Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#483698'  # KPMG Secondary Blue for timing
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 18%
+              size: 15% 5%
+              scale: 1
+              text: |
+                Payment Receipt
+              pinned: true
+              
+          # E-mailed totals (Orange Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # KPMG Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 24%
+              size: 15% 8%
+              scale: 1
+              text: |
+                E-mailed totals
+              pinned: true
+              
+          # Each morning (Blue Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#483698'  # KPMG Secondary Blue for timing
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 33%
+              size: 15% 5%
+              scale: 1
+              text: |
+                Each morning
+              pinned: true
+              
+          # Request remittance file totals (Red Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'  # KPMG Red
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 39%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Request
+                remittance file
+                totals
+              pinned: true
+              
+          # Remittance file totals (Orange Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # KPMG Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 48%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Remittance file
+                totals
+              pinned: true
+              
+          # Compare totals (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 57%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Compare totals
+              pinned: true
+              
+          # Request payment application (Red Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'  # KPMG Red
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 66%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Request payment
+                application
+              pinned: true
+              
+          # AR, discounts, amount paid (Orange Oval)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # KPMG Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 75%
+              size: 15% 8%
+              scale: 1
+              text: |
+                AR, discounts,
+                amount paid
+              pinned: true
+              
+          # Compare totals (Blue Rectangle)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 58% 84%
+              size: 15% 8%
+              scale: 1
+              text: |
+                Compare totals
+              pinned: true
+      
+      # ======================================================================
+      # Task 5: Risk Assessment Matrix
+      # ======================================================================
+      # Expected outcome: A 5x5 risk assessment matrix with color-coded zones
+      # and notes for identified risks
+      # 
+      # Implementation: 
+      # - 5x5 grid with color-coded zones (green, yellow, orange, red)
+      # - Notes for each identified risk, positioned according to likelihood
+      #   and impact
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Risk Assessment Matrix'
+        icon: 'icons/5-risk-assessment.png'
+        actions:
+          # Title Note
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                RISK ASSESSMENT MATRIX
+                Identify potential risks to the project or initiative. Position each risk based on likelihood (1-5) and impact (1-5). Use the template note to add new risks. Higher scores indicate greater risk levels.
+              pinned: true
+
+          # Likelihood Labels (Column A)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a1a'  # Red with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 4% 14%
+              size: 13% 14%
+              scale: 1
+              text: |
+                5 - Very Likely
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff99331a'  # Orange with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 4% 28%
+              size: 13% 14%
+              scale: 1
+              text: |
+                4 - Likely
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffcc001a'  # Yellow with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 4% 42%
+              size: 13% 14%
+              scale: 1
+              text: |
+                3 - Possible
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#88b3341a'  # Yellow-Green with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 4% 56%
+              size: 13% 14%
+              scale: 1
+              text: |
+                2 - Unlikely
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa341a'  # Green with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 4% 70%
+              size: 13% 14%
+              scale: 1
+              text: |
+                1 - Rare
+              pinned: true
+
+          # Impact Labels (Row 6)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa341a'  # Green with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 17% 84%
+              size: 13% 14%
+              scale: 1
+              text: |
+                1 - Negligible
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#88b3341a'  # Yellow-Green with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 84%
+              size: 13% 14%
+              scale: 1
+              text: |
+                2 - Minor
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffcc001a'  # Yellow with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 43% 84%
+              size: 13% 14%
+              scale: 1
+              text: |
+                3 - Moderate
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff99331a'  # Orange with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 56% 84%
+              size: 13% 14%
+              scale: 1
+              text: |
+                4 - Major
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a1a'  # Red with 90% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 69% 84%
+              size: 13% 14%
+              scale: 1
+              text: |
+                5 - Severe
+              pinned: true
+
+          # Risk Zones (2x2 each with scale=2)
+          # High Risk Zone (Red)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a1a'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 57% 15%
+              size: 13% 14%
+              scale: 2
+              text: |
+                HIGH RISK ZONE
+                Score: 16-25
+                
+                Immediate action required
+                Senior management attention needed
+              pinned: true
+
+          # Medium Risk Zone (Orange)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff99331a'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 38% 36%
+              size: 13% 14%
+              scale: 2
+              text: |
+                MEDIUM RISK ZONE
+                Score: 9-15
+                
+                Specific monitoring required
+                Management responsibility specified
+              pinned: true
+
+          # Low Risk Zone (Green)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa341a'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 18% 58%
+              size: 13% 14%
+              scale: 2
+              text: |
+                LOW RISK ZONE
+                Score: 1-8
+                
+                Manage by routine procedures
+                Monitor periodically
+              pinned: true
+          # Risk Template
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 65% 14%
+              size: 13% 28%
+              scale: 1
+              text: |
+                RISK TEMPLATE
+                
+                Risk ID: [Number]
+                Description: [Brief description of risk]
+                Likelihood Score (1-5): [Score] - [Reasoning]
+                Impact Score (1-5): [Score] - [Reasoning]
+                Total Risk Score: [Likelihood × Impact]
+                Mitigation Strategy: [Planned actions]
+                Owner: [Name/Role]
+                Review Date: [Next review date]
+              pinned: true
+
+          # Example Risks
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6332a'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 85% 44%
+              size: 13% 14%
+              scale: 1
+              text: |
+                Risk ID: 001
+                High Risk Example
+                L: 5, I: 5
+                Score: 25
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 85% 60%
+              size: 13% 14%
+              scale: 1
+              text: |
+                Risk ID: 002
+                Medium Risk Example
+                L: 3, I: 3
+                Score: 9
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 85% 76%
+              size: 13% 14%
+              scale: 1
+              text: |
+                Risk ID: 003
+                Low Risk Example
+                L: 1, I: 1
+                Score: 1
+              pinned: false
+      
+      # ======================================================================
+      # Task 6: Prioritization Matrix
+      # ======================================================================
+      # Expected outcome: A 2x2 prioritization matrix (Effort vs Impact)
+      # with notes for items to be prioritized
+      # 
+      # Implementation: 
+      # - 2x2 grid with quadrants for different priority levels
+      # - Notes for each item to be prioritized
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Prioritization Matrix'
+        icon: 'icons/6-priority-matrix.png'
+        actions:
+          # Title Note (Instructions)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                PRIORITIZATION MATRIX
+                Use this template to prioritize tasks, features, or initiatives. Position each item based on effort required (1-5) and impact expected (1-5). Use the template note to add new items. Higher impact and lower effort items should be prioritized.
+              pinned: true
+
+          # Quadrant 1 - Top Left - Quick Wins
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#e6b3b31a'  # Light pink with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 10% 12%
+              size: 40% 40%
+              scale: 1
+              text: |
+                QUICK WINS
+                
+                High Impact, Low Effort
+                Do these first!
+                
+                - Easy to implement
+                - High value return
+                - Immediate benefits
+              pinned: true
+          
+          # Quadrant 2 - Top Right - Major Projects
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#f2d6991a'  # Light yellow with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 12%
+              size: 40% 40%
+              scale: 1
+              text: |
+                MAJOR PROJECTS
+                
+                High Impact, High Effort
+                Plan these carefully
+                
+                - Strategic importance
+                - Resource intensive
+                - Long-term benefits
+              pinned: true
+              
+          # Quadrant 3 - Bottom Left - Fill-ins
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#b3d9c61a'  # Light green with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 10% 52%
+              size: 40% 40%
+              scale: 1
+              text: |
+                FILL-INS
+                
+                Low Impact, Low Effort
+                Do if time permits
+                
+                - Quick tasks
+                - Minor improvements
+                - Nice-to-haves
+              pinned: true
+  
+          # Quadrant 4 - Bottom Right - Thankless Tasks
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#f2c1b31a'  # Light peach with 85% transparency
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 52%
+              size: 40% 40%
+              scale: 1
+              text: |
+                THANKLESS TASKS
+                
+                Low Impact, High Effort
+                Avoid if possible
+                
+                - Resource drains
+                - Minimal benefits
+                - Consider alternatives
+              pinned: true
+              
+          # Left Side Note Stacks (2 stacks)
+          # Stack 1 - Top Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                Clone for more items
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+              
+          # Stack 2 - Bottom Left
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00adef'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+              
+          # Right Side Note Stacks (2 stacks)
+          # Stack 1 - Top Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 47%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          
+          # Stack 2 - Bottom Right
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: true
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 90% 78%
+              size: 8% 14%
+              scale: 1
+              text: |
+                
+              pinned: false
+      
+      # ======================================================================
+      # Task 7: Brainstorming/Ideation
+      # ======================================================================
+      # Expected outcome: A mind map or idea collection with a central topic
+      # and related ideas grouped by category
+      # 
+      # Implementation: 
+      # - Central topic note
+      # - Color-coded categories
+      # - Notes for individual ideas
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Brainstorming/Ideation'
+        icon: 'icons/7-brain-storm.png'
+        actions:
+          # Title Note
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 5% 2%
+              size: 90% 8%
+              scale: 1
+              text: |
+                DIGITAL TRANSFORMATION STRATEGY
+                Map out key initiatives for digital transformation. Categories represent main focus areas, with specific actionable ideas linked to each category.
+              pinned: true
+
+          # Central Topic
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 43.15% 48.85%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Digital
+                Transformation
+                Strategy
+                2024-2025
+              pinned: true
+
+          # Category 1: Customer Experience
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'  # Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 29.4% 36.6%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Customer
+                Experience
+              pinned: true
+
+          # Ideas for Customer Experience (Green)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 12%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Personalized
+                Customer
+                Portals
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 24.3%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                AI-Powered
+                Chatbot
+                Support
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#3aaa34'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 36.6%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Mobile-First
+                Experience
+                Design
+              pinned: true
+
+          # Category 2: Technology Infrastructure
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 56.9% 36.6%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Technology
+                Infrastructure
+              pinned: true
+
+          # Ideas for Technology Infrastructure (Blue)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 12%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Cloud
+                Migration
+                Strategy
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 24.3%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                API-First
+                Architecture
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 36.6%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Microservices
+                Implementation
+              pinned: true
+
+          # Category 3: Process Automation
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'  # Orange
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 29.4% 61.1%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Process
+                Automation
+              pinned: true
+
+          # Ideas for Process Automation (Orange)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 61.1%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                RPA for
+                Back-Office
+                Tasks
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 73.4%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Smart
+                Document
+                Processing
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ff9933'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 85.7%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Workflow
+                Automation
+                Platform
+              pinned: true
+
+          # Category 4: Workforce Development
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'  # Purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 56.9% 61.1%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Workforce
+                Development
+              pinned: true
+
+          # Ideas for Workforce Development (Purple)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 61.1%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Digital
+                Skills
+                Training
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 73.4%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Agile
+                Working
+                Methods
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#92278f'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 84.3% 85.7%
+              size: 13.7% 12.3%
+              scale: 1
+              text: |
+                Innovation
+                Lab
+                Program
+              pinned: true
+      
+      # ======================================================================
+      # Task 8: Decision Matrix
+      # ======================================================================
+      # Expected outcome: A decision matrix with options as rows and criteria
+      # as columns, with scores for each option against each criterion
+      # 
+      # Implementation: 
+      # - Notes arranged in a grid format
+      # - Options listed as rows
+      # - Criteria listed as columns
+      # - Scores entered in the grid cells
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Decision Matrix'
+        icon: 'icons/8-decision.png'
+        actions:
+          # Title and Instructions
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 1%
+              size: 98% 10%
+              scale: 1
+              text: |
+                DECISION MATRIX
+                A systematic approach to evaluating options against key criteria
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              pinned: true
+
+          # Scoring Guide - Moved to top for better visibility
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#ffffff'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 12%
+              size: 98% 6%
+              scale: 1
+              text: |
+                ⭐ 5 = Excellent | ⭐ 4 = Good | ⭐ 3 = Average | ⭐ 2 = Poor | ⭐ 1 = Very Poor
+              pinned: true
+
+          # Matrix Header Row
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'  # KPMG Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 19%
+              size: 24% 10%
+              scale: 1
+              text: |
+                OPTIONS ▼
+                CRITERIA ►
+              pinned: true
+
+          # Criteria Headers with Weights
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'  # KPMG Medium Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 19%
+              size: 18% 10%
+              scale: 1
+              text: |
+                💰 COST
+                Weight [1-5]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 45% 19%
+              size: 18% 10%
+              scale: 1
+              text: |
+                ⏱️ TIME
+                Weight [1-5]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#0091DA'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 64% 19%
+              size: 18% 10%
+              scale: 1
+              text: |
+                ✨ QUALITY
+                Weight [1-5]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 83% 19%
+              size: 16% 10%
+              scale: 1
+              text: |
+                📊 TOTAL
+              pinned: true
+
+          # Option A Row
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0D4EA'  # Lightest purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 30%
+              size: 24% 12%
+              scale: 1
+              text: |
+                OPTION A
+                ━━━━━━━━━━
+                [Description]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0D4EA'  # Lightest purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 30%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐
+                Weighted: 12
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0D4EA'  # Lightest purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 45% 30%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐
+                Weighted: 9
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0D4EA'  # Lightest purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 64% 30%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐⭐
+                Weighted: 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0D4EA'  # Lightest purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 83% 30%
+              size: 16% 12%
+              scale: 1
+              text: |
+                36 / 75
+                ━━━━━━
+                48%
+              pinned: true
+
+          # Option B Row
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#C5B4DB'  # Light purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 43%
+              size: 24% 12%
+              scale: 1
+              text: |
+                OPTION B
+                ━━━━━━━━━━
+                [Description]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#C5B4DB'  # Light purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 43%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐
+                Weighted: 9
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#C5B4DB'  # Light purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 45% 43%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐
+                Weighted: 12
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#C5B4DB'  # Light purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 64% 43%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐
+                Weighted: 12
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#C5B4DB'  # Light purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 83% 43%
+              size: 16% 12%
+              scale: 1
+              text: |
+                33 / 75
+                ━━━━━━
+                44%
+              pinned: true
+
+          # Option C Row
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9678C5'  # Medium purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 56%
+              size: 24% 12%
+              scale: 1
+              text: |
+                OPTION C
+                ━━━━━━━━━━
+                [Description]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9678C5'  # Medium purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 56%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐⭐
+                Weighted: 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9678C5'  # Medium purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 45% 56%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐
+                Weighted: 6
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9678C5'  # Medium purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 64% 56%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐
+                Weighted: 9
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#9678C5'  # Medium purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 83% 56%
+              size: 16% 12%
+              scale: 1
+              text: |
+                30 / 75
+                ━━━━━━
+                40%
+              pinned: true
+
+          # Option D Row
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6C4EA3'  # Darker purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 69%
+              size: 24% 12%
+              scale: 1
+              text: |
+                OPTION D
+                ━━━━━━━━━━
+                [Description]
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6C4EA3'  # Darker purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 69%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐
+                Weighted: 6
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6C4EA3'  # Darker purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 45% 69%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐⭐⭐
+                Weighted: 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6C4EA3'  # Darker purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 64% 69%
+              size: 18% 12%
+              scale: 1
+              text: |
+                Score: ⭐⭐⭐
+                Weighted: 9
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#6C4EA3'  # Darker purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 83% 69%
+              size: 16% 12%
+              scale: 1
+              text: |
+                30 / 75
+                ━━━━━━
+                40%
+              pinned: true
+
+          # Scoring Guide Note (replacing template)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00338D'
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 1% 82%
+              size: 98% 16%
+              scale: 1
+              text: |
+                📊 SCORING GUIDANCE
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                1. Assign weights to criteria based on importance (1-5)
+                2. Score each option against each criterion (1-5 stars)
+                3. Calculate weighted scores (Score × Weight)
+                4. Sum the weighted scores to get the total
+                5. Higher totals indicate more favorable options
+      
+      # ======================================================================
+      # Task 9: Project Timeline
+      # ======================================================================
+      # Expected outcome: A visual project timeline with key milestones,
+      # activities, and deadlines
+      # 
+      # Implementation: 
+      # - Horizontal timeline with notes for each phase/milestone
+      # - Color-coded notes for different types of activities
+      # 
+      # NB: Can be implemented with notes only, 2% boundary edge to viewport, no overlapping notes.
+      # ======================================================================
+      - tooltip: 'Project Timeline'
+        icon: 'icons/9-project-timeline.png'
+        actions:
+          # Title and Instructions
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 2%
+              size: 96% 8%
+              scale: 1
+              text: |
+                PROJECT TIMELINE
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                Track project progression with phases, milestones, activities, and deadlines
+              pinned: true
+               
+          # Timeline Legend
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 11%
+              size: 96% 6%
+              scale: 1
+              text: |
+                🔷 PROJECT PHASE   |   🔶 MILESTONE   |   🔸 ACTIVITY   |   ⭕ CRITICAL DEADLINE   |   🔹 DEPENDENCY
+              pinned: true
+
+          # Timeline Backbone
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 18%
+              size: 96% 3%
+              scale: 1
+              text: |
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+              pinned: true
+
+          # Month Labels - Evenly spaced with 1% gaps
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 3% 22%
+              size: 16% 5%
+              scale: 1
+              text: |
+                January
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 20% 22%
+              size: 16% 5%
+              scale: 1
+              text: |
+                February
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 37% 22%
+              size: 16% 5%
+              scale: 1
+              text: |
+                March
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 54% 22%
+              size: 16% 5%
+              scale: 1
+              text: |
+                April
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E0E0E0'  # Light Gray
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 71% 22%
+              size: 16% 5%
+              scale: 1
+              text: |
+                May
+              pinned: true
+
+          # Project Phases (Deloitte Green) - Row 1
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 3% 28%
+              size: 33% 7%
+              scale: 1
+              text: |
+                🔷 PLANNING PHASE
+                Jan 1 - Feb 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 28%
+              size: 35% 7%
+              scale: 1
+              text: |
+                🔷 EXECUTION PHASE
+                Feb 16 - Apr 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 65% 28%
+              size: 32% 7%
+              scale: 1
+              text: |
+                🔷 CLOSEOUT PHASE
+                Apr 16 - May 30
+              pinned: true
+
+          # Milestones (Dark Green) - Row 2
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#007A33'  # Deloitte Dark Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 11% 36%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔶 Project Kickoff
+                Jan 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#007A33'  # Deloitte Dark Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 37% 36%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔶 Midpoint Review
+                Mar 1
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#007A33'  # Deloitte Dark Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 69% 36%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔶 Final Delivery
+                Apr 30
+              pinned: true
+
+          # Activities (Light Green) - Row 3
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#D4EB8E'  # Light Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 6% 44%
+              size: 12% 7%
+              scale: 1
+              text: |
+                🔸 Requirements
+                Jan 5-20
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#D4EB8E'  # Light Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 18% 44%
+              size: 12% 7%
+              scale: 1
+              text: |
+                🔸 Design
+                Jan 21-Feb 10
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#D4EB8E'  # Light Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 30% 44%
+              size: 24% 7%
+              scale: 1
+              text: |
+                🔸 Development
+                Feb 16-Apr 1
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#D4EB8E'  # Light Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 54% 44%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔸 Testing
+                Apr 2-25
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#D4EB8E'  # Light Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 69% 44%
+              size: 8% 7%
+              scale: 1
+              text: |
+                🔸 Handoff
+                Apr 26-30
+              pinned: true
+
+          # Deadlines (Black) - Row 4
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 52%
+              size: 10% 7%
+              scale: 1
+              text: |
+                ⭕ Design Approval
+                Feb 10
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 54% 52%
+              size: 10% 7%
+              scale: 1
+              text: |
+                ⭕ Code Complete
+                Apr 1
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 65% 52%
+              size: 10% 7%
+              scale: 1
+              text: |
+                ⭕ Test Approval
+                Apr 25
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 69% 52%
+              size: 10% 7%
+              scale: 1
+              text: |
+                ⭕ Final Approval
+                Apr 30
+              pinned: true
+
+          # Dependencies (Gray) - Row 5
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green with opacity
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 11% 60%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔹 Client Resources
+                Required by Jan 15
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green with opacity
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 37% 60%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔹 Vendor Delivery
+                Required by Mar 1
+              pinned: true
+
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green with opacity
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 62% 60%
+              size: 15% 7%
+              scale: 1
+              text: |
+                🔹 Stakeholder Sign-off
+                Required by Apr 15
+              pinned: true
+
+          # Bottom Section - 4 Column Layout
+          # Column 1 - Risk Tracking
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 68%
+              size: 22% 30%
+              scale: 1
+              text: |
+                RISK TRACKING
+                ━━━━━━━━━━━━━━━━━━
+                • [Risk 1]: 
+                  Impact and 
+                  mitigation plan
+                
+                • [Risk 2]: 
+                  Impact and 
+                  mitigation plan
+                
+                • [Risk 3]:
+                  Impact and
+                  mitigation plan
+              pinned: true
+
+          # Column 2 - Issue Tracking
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#000000'  # Deloitte Black
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 26% 68%
+              size: 22% 30%
+              scale: 1
+              text: |
+                ISSUE TRACKING
+                ━━━━━━━━━━━━━━━━━━
+                • [Issue 1]: 
+                  Status and 
+                  resolution plan
+                
+                • [Issue 2]: 
+                  Status and 
+                  resolution plan
+                
+                • [Issue 3]:
+                  Status and
+                  resolution plan
+              pinned: true
+
+          # Column 3 - Resources
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#007A33'  # Deloitte Dark Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 50% 68%
+              size: 22% 30%
+              scale: 1
+              text: |
+                RESOURCES
+                ━━━━━━━━━━━━━━━━━━
+                AVAILABILITY:
+                  🟢 Available
+                  🟡 Limited
+                  🔴 Constrained
+                Q1 RESOURCES:
+                  🟢 Project Team (6)
+                  🟡 Design Resources
+                  🟢 Client Availability
+                Q2 RESOURCES:
+                  🟢 Testing Team
+                  🟡 Stakeholders
+              pinned: true
+
+          # Column 4 - Project Status
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#86BC25'  # Deloitte Green
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 74% 68%
+              size: 24% 30%
+              scale: 1
+              text: |
+                PROJECT STATUS
+                ━━━━━━━━━━━━━━━━━━
+                SCHEDULE: 
+                ■■■■■■■■■■□□□□□□□□□□ 
+                  50% Complete
+                BUDGET: 
+                ■■■■■■■■■■■■□□□□□□□□ 
+                  60% Utilized
+                SCOPE: 
+                  15/25 Requirements
+                NEXT STEPS:
+                  • Complete dev by Apr 1
+                  • Begin testing Apr 2
+                  • Final delivery Apr 30
+              pinned: true
+      
+      # ======================================================================
+      # Task 10: Meeting Notes Template
+      # ======================================================================
+      # Expected outcome: A structured template for capturing meeting notes
+      # with predefined sections for agenda, attendees, decisions, and actions
+      # 
+      # Implementation: 
+      # - Title note with meeting details
+      # - Color-coded sections for different parts of the meeting
+      # - Action items with assignees and due dates
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Meeting Notes Template'
+        icon: 'icons/10-meeting-notes.png'
+        actions:
+          # Title and Instructions
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#550F55'  # MT Purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 2%
+              size: 96% 8%
+              scale: 1
+              text: |
+                MEETING NOTES TEMPLATE
+                Use this template to capture key information during meetings.
+              pinned: true
+              
+          # Meeting Details
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#36A9E1'  # MT Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 11%
+              size: 48% 24%
+              scale: 1
+              text: |
+                MEETING DETAILS
+                ━━━━━━━━━━━━━━━━━━━━━━━━
+                Date: [Date]
+                Time: [Start Time] - [End Time]
+                Location: [Physical/Virtual]
+                
+                Attendees:
+                • [Name], [Role]
+                • [Name], [Role]
+                
+                Absent:
+                • [Name], [Role]
+              pinned: true
+              
+          # Agenda Section
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00386E'  # MT Dark Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 51% 11%
+              size: 47% 24%
+              scale: 1
+              text: |
+                AGENDA
+                ━━━━━━━━━━━━━━━━━━━━━━━━
+                1. [Topic 1]
+                   • [Subtopic]
+                   • [Subtopic]
+                
+                2. [Topic 2]
+                   • [Subtopic]
+                   • [Subtopic]
+                
+                3. [Topic 3]
+                   • [Subtopic]
+              pinned: true
+              
+          # Discussion Notes
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#550F55'  # MT Purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 36%
+              size: 96% 24%
+              scale: 1
+              text: |
+                DISCUSSION NOTES
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                Topic 1:
+                • [Key points discussed]
+                • [Concerns raised]
+                • [Solutions proposed]
+                
+                Topic 2:
+                • [Key points discussed]
+                • [Concerns raised]
+                • [Solutions proposed]
+                
+                Topic 3:
+                • [Key points discussed]
+                • [Concerns raised]
+                • [Solutions proposed]
+              pinned: true
+              
+          # Decisions Made
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E6007E'  # MT Magenta
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 61%
+              size: 48% 19%
+              scale: 1
+              text: |
+                DECISIONS MADE
+                ━━━━━━━━━━━━━━━━━━━━━━━━
+                1. [Decision 1]
+                   • Context: [Reason]
+                   • Impact: [Effect]
+                
+                2. [Decision 2]
+                   • Context: [Reason]
+                   • Impact: [Effect]
+              pinned: true
+              
+          # Action Items
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#36A9E1'  # MT Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 51% 61%
+              size: 47% 19%
+              scale: 1
+              text: |
+                ACTION ITEMS
+                ━━━━━━━━━━━━━━━━━━━━━━━━
+                1. [Action Item 1]
+                   • Owner: [Name]
+                   • Due Date: [Date]
+                   • Status: □ Not Started
+                
+                2. [Action Item 2]
+                   • Owner: [Name]
+                   • Due Date: [Date]
+                   • Status: □ Not Started
+              pinned: true
+          
+          # Next Steps
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00386E'  # MT Dark Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 81%
+              size: 96% 17%
+              scale: 1
+              text: |
+                NEXT STEPS
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                • Next meeting date: [Date and Time]
+                • Pre-work required: [Description]
+                • Documents to be distributed: [List]
+                • Follow-up communications: [Details]
+              pinned: true
+
+      # ======================================================================
+      # Task 11: Retrospective Template
+      # ======================================================================
+      # Expected outcome: A structured template for conducting team retrospectives
+      # with sections for what went well, what needs improvement, and action items
+      # 
+      # Implementation: 
+      # - Title note with retrospective details
+      # - Color-coded sections for different feedback categories
+      # - Action items with owners and due dates
+      # 
+      # NB: Can be implemented with notes only
+      # ======================================================================
+      - tooltip: 'Retrospective Template'
+        icon: 'icons/11-restrospective.png'
+        actions:
+          # Title and Instructions
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00386E'  # MT Dark Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 2%
+              size: 96% 8%
+              scale: 1
+              text: |
+                RETROSPECTIVE TEMPLATE
+                Facilitate team retrospectives with a focus on constructive feedback and actionable improvements.
+              pinned: true
+              
+          # Sprint Information
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#36A9E1'  # MT Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 11%
+              size: 96% 10%
+              scale: 1
+              text: |
+                SPRINT INFORMATION
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                Sprint/Period: [e.g., Sprint 7]
+                Date Range: [Start Date] - [End Date]
+                Team Members Present: [Names]
+                Facilitator: [Name]
+              pinned: true
+              
+          # What Went Well (Left Column)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#36A9E1'  # MT Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 22%
+              size: 31% 38%
+              scale: 1
+              text: |
+                WHAT WENT WELL ✓
+                ━━━━━━━━━━━━━━━━━━
+                
+                Achievements:
+                • [Achievement 1]
+                • [Achievement 2]
+                
+                Successes:
+                • [Success 1]
+                • [Success 2]
+                
+                Team Wins:
+                • [Win 1]
+                • [Win 2]
+                
+                Tools/Processes:
+                • [Tool/Process 1]
+                • [Tool/Process 2]
+              pinned: true
+              
+          # What Needs Improvement (Middle Column)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#E6007E'  # MT Magenta
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 34% 22%
+              size: 31% 38%
+              scale: 1
+              text: |
+                NEEDS IMPROVEMENT ⚠
+                ━━━━━━━━━━━━━━━━━━
+                
+                Challenges:
+                • [Challenge 1]
+                • [Challenge 2]
+                
+                Bottlenecks:
+                • [Bottleneck 1]
+                • [Bottleneck 2]
+                
+                Inefficiencies:
+                • [Issue 1]
+                • [Issue 2]
+                
+                Frustrations:
+                • [Frustration 1]
+                • [Frustration 2]
+              pinned: true
+              
+          # New Ideas (Right Column)
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#550F55'  # MT Purple
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 66% 22%
+              size: 32% 38%
+              scale: 1
+              text: |
+                NEW IDEAS 💡
+                ━━━━━━━━━━━━━━━━━━
+                
+                Process Changes:
+                • [Process idea 1]
+                • [Process idea 2]
+                
+                Tools to Try:
+                • [Tool idea 1]
+                • [Tool idea 2]
+                
+                Team Practices:
+                • [Practice idea 1]
+                • [Practice idea 2]
+                
+                Experiments:
+                • [Experiment idea 1]
+                • [Experiment idea 2]
+              pinned: true
+              
+          # Action Items
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#00386E'  # MT Dark Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 61%
+              size: 96% 19%
+              scale: 1
+              text: |
+                ACTION ITEMS
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                1. [Action Item 1]
+                   • Owner: [Name]
+                   • Due Date: [Date]
+                   • Success Criteria: [Measurable outcome]
+                   • Priority: [High/Medium/Low]
+                
+                2. [Action Item 2]
+                   • Owner: [Name]
+                   • Due Date: [Date]
+                   • Success Criteria: [Measurable outcome]
+                   • Priority: [High/Medium/Low]
+                
+                3. [Action Item 3]
+                   • Owner: [Name]
+                   • Due Date: [Date]
+                   • Success Criteria: [Measurable outcome]
+                   • Priority: [High/Medium/Low]
+              pinned: true
+              
+          # Metrics and Trends
+          - name: 'create'
+            parameters:
+              type: 'note'
+              color: '#36A9E1'  # MT Blue
+              coordinate-system: 'viewport'
+              coordinate-offset: 'none'
+              location: 2% 81%
+              size: 96% 17%
+              scale: 1
+              text: |
+                METRICS AND TRENDS
+                ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+                Velocity: [Previous] → [Current]
+                Bugs Resolved: [Number]
+                Features Delivered: [Number]
+                Team Satisfaction: [Rating out of 5]
+                
+                Key Takeaway: [One-sentence summary of the most important insight]
+              pinned: true

@@ -1,0 +1,1486 @@
+tooltip: Custom Menu
+icon: icons/custom-menu.png
+items:
+  - tooltip: Facilitation Menu
+    icon: icons/AI_Icon_Canvus_Control.png
+    items:
+      - tooltip: AI PDF Precis Helper
+        icon: icons/AI_Icon_PDF_Precis.png
+        actions:
+          - name: create
+            parameters:
+              type: image
+              source: content/AI_Icon_PDF_Precis.png
+              scale: 0.33
+      - tooltip: AI Canvus Precis Helper
+        icon: icons/AI_Icon_Canvus_Precis.png
+        actions:
+          - name: create
+            parameters:
+              type: image
+              source: content/AI_Icon_Canvus_Precis.png
+              scale: 0.33
+      - tooltip: Macros
+        icon: icons/ai-me.png
+        actions:
+          - name: create
+            parameters:
+              type: browser
+              url: http://webui.canvusmultisite.com
+              origin: 0.5, 0.5
+              size: 1366px, 768px
+              scale: 0.5
+              pinned: true
+  - tooltip: Tasks
+    icon: icons/labels.png
+    items:
+      - tooltip: SWOT Analysis
+        icon: icons/1.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: '#e6b3b31a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 10%
+              size: 35% 45%
+              scale: 1
+              text: |
+                STRENGTHS
+
+                What are you doing well?
+                What sets you apart?
+                What are your good qualities?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#f2d6991a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 10%
+              size: 35% 45%
+              scale: 1
+              text: |
+                WEAKNESSES
+
+                Where do you need to improve?
+                Are resources adequate?
+                What do others do better than you?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#b3d9c61a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 55%
+              size: 35% 45%
+              scale: 1
+              text: |
+                OPPORTUNITIES
+
+                What are your goals?
+                Are demands shifting?
+                How can it be improved?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#f2c1b31a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 55%
+              size: 35% 45%
+              scale: 1
+              text: |
+                THREATS
+
+                What are the blockers you're facing?
+                What are factors outside of your control?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              scale: 1
+              text: >
+                SWOT ANALYSIS
+
+                Use this template to identify Strengths, Weaknesses,
+                Opportunities, and Threats. Create additional notes by cloning
+                the base notes on each side.
+              pinned: true
+      - tooltip: Business Model Canvas
+        icon: icons/2.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              scale: 1
+              text: >
+                BUSINESS MODEL CANVAS
+
+                Use this canvas to map out your business model. Each section
+                contains guiding questions to help you complete it. Replace the
+                text in each section with your own content.
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffcc99'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 0% 10%
+              size: 20% 60%
+              scale: 1
+              text: |
+                Key Partners
+
+                Who are your key partners/suppliers?
+                What are the motivators for the partnerships?
+                Which key activities do partners perform?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffeb3b'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 0% 10%
+              size: 20% 60%
+              text: |
+                KEY PARTNERS
+                Who are our Key Partners?
+                Who are our key suppliers?
+                Which Key Resources are we acquiring from partners?
+                Which Key Activities do partners perform?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff9800'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 20% 10%
+              size: 20% 30%
+              text: |
+                KEY ACTIVITIES
+                What Key Activities do our Value Propositions require?
+                Our Distribution Channels?
+                Customer Relationships?
+                Revenue streams?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#f44336'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 40% 10%
+              size: 20% 60%
+              text: >
+                VALUE PROPOSITIONS
+
+                What value do we deliver to the customer?
+
+                Which one of our customer's problems are we helping to solve?
+
+                What bundles of products and services are we offering to each
+                Customer Segment?
+
+                Which customer needs are we satisfying?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#4caf50'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 60% 10%
+              size: 20% 30%
+              text: >
+                CUSTOMER RELATIONSHIPS
+
+                What type of relationship does each of our Customer Segments
+                expect us to establish?
+
+                Which ones have we established?
+
+                How costly are they?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#2196f3'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 80% 10%
+              size: 20% 60%
+              text: |
+                CUSTOMER SEGMENTS
+                For whom are we creating value?
+                Who are our most important customers?
+                What are the customer archetypes?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff9800'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 20% 40%
+              size: 20% 30%
+              text: |
+                KEY RESOURCES
+                What Key Resources do our Value Propositions require?
+                Our Distribution Channels?
+                Customer Relationships?
+                Revenue Streams?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#4caf50'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 60% 40%
+              size: 20% 30%
+              text: >
+                CHANNELS
+
+                Through which Channels do our Customer Segments want to be
+                reached?
+
+                How are we reaching them now?
+
+                Which ones work best?
+
+                Which ones are most cost-efficient?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#9c27b0'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 0% 70%
+              size: 50% 20%
+              text: >
+                COST STRUCTURE
+
+                What are the most important costs inherent in our business
+                model?
+
+                Which Key Resources are most expensive?
+
+                Which Key Activities are most expensive?
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#e91e63'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 70%
+              size: 50% 20%
+              text: |
+                REVENUE STREAMS
+                For what value are our customers really willing to pay?
+                For what do they currently pay?
+                How are they currently paying?
+                How would they prefer to pay?
+              pinned: true
+      - tooltip: Stakeholder Mapping
+        icon: icons/3.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              text: >
+                STAKEHOLDER MAPPING
+
+                Use this template to analyze and map your stakeholders based on
+                their influence and interest.
+
+                Add stakeholders by cloning the example notes in each quadrant.
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 10% 40%
+              size: 5% 60%
+              text: |
+                I
+                N
+                F
+                L
+                U
+                E
+                N
+                C
+                E
+                /
+                P
+                O
+                W
+                E
+                R
+
+                O
+                F
+
+                S
+                T
+                A
+                K
+                E
+                H
+                O
+                L
+                D
+                E
+                R
+                S
+                ↑
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 90%
+              size: 70% 5%
+              text: INTEREST IN THE PROJECT →
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#e6332a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 10%
+              size: 35% 40%
+              text: >
+                KEEP SATISFIED
+
+                High Power, Low Interest
+
+
+                These stakeholders require special effort to keep them
+                satisfied, but not so much information that they become bored.
+
+
+                Example stakeholders:
+
+                - Board members
+
+                - Regulators
+
+                - Government agencies
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 10%
+              size: 35% 40%
+              text: >
+                KEY PLAYERS
+
+                High Power, High Interest
+
+
+                These are the stakeholders you must fully engage with and make
+                the greatest efforts to satisfy.
+
+
+                Example stakeholders:
+
+                - CEO
+
+                - Project sponsors
+
+                - Key investors
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#662583'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 50%
+              size: 35% 40%
+              text: >
+                MINIMAL EFFORT
+
+                Low Power, Low Interest
+
+
+                These stakeholders require minimal effort. Monitor but do not
+                bore with excessive communication.
+
+
+                Example stakeholders:
+
+                - Public
+
+                - Remote departments
+
+                - Industry peers
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#1d71b8'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 50%
+              size: 35% 40%
+              text: >
+                KEEP INFORMED
+
+                Low Power, High Interest
+
+
+                These stakeholders need to be adequately informed. Talk to them
+                regularly to ensure no major issues arise.
+
+
+                Example stakeholders:
+
+                - End users
+
+                - Team members
+
+                - Middle management
+              pinned: true
+      - tooltip: Process Mapping
+        icon: icons/4.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              text: |
+                PROCESS MAPPING
+                Use this template to map out your business processes.
+                Add process steps by cloning the example notes.
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#808080'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 15%
+              size: 20% 10%
+              text: Each morning
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff0000'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 30%
+              size: 20% 10%
+              text: Request billing due list
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#0000ff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 30% 30%
+              size: 20% 10%
+              text: Display billing due list and totals
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffa500'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 55% 30%
+              size: 20% 10%
+              text: Record payments, display totals
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#808080'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 45%
+              size: 20% 10%
+              text: Every 15 minutes
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff0000'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 60%
+              size: 20% 10%
+              text: Request payment file
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#0000ff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 30% 60%
+              size: 20% 10%
+              text: Process payment file
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffa500'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 55% 60%
+              size: 20% 10%
+              text: Update payment records
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#808080'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 75%
+              size: 20% 10%
+              text: End of day
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff0000'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 90%
+              size: 20% 10%
+              text: Request daily totals
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#0000ff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 30% 90%
+              size: 20% 10%
+              text: Generate daily report
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffa500'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 55% 90%
+              size: 20% 10%
+              text: Archive daily records
+              pinned: true
+      - tooltip: Risk Assessment Matrix
+        icon: icons/5.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 30%
+              size: 10% 5%
+              scale: 1
+              text: |
+                5 - Very Likely
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 40%
+              size: 10% 5%
+              scale: 1
+              text: |
+                4 - Likely
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 50%
+              size: 10% 5%
+              scale: 1
+              text: |
+                3 - Possible
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 60%
+              size: 10% 5%
+              scale: 1
+              text: |
+                2 - Unlikely
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 70%
+              size: 10% 5%
+              scale: 1
+              text: |
+                1 - Rare
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 30% 80%
+              size: 10% 5%
+              scale: 1
+              text: |
+                1 - Negligible
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 40% 80%
+              size: 10% 5%
+              scale: 1
+              text: |
+                2 - Minor
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 80%
+              size: 10% 5%
+              scale: 1
+              text: |
+                3 - Moderate
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 60% 80%
+              size: 10% 5%
+              scale: 1
+              text: |
+                4 - Major
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 70% 80%
+              size: 10% 5%
+              scale: 1
+              text: |
+                5 - Severe
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 85% 50%
+              size: 15% 15%
+              scale: 1
+              text: |
+                Risk Template
+
+                Risk ID: [ID]
+                Description: [Description]
+                Likelihood: [1-5]
+                Impact: [1-5]
+                Risk Score: [L × I]
+                Mitigation: [Strategy]
+                Owner: [Name]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#e6332a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 70% 30%
+              size: 10% 10%
+              scale: 1
+              text: |
+                High Risk Example
+
+                L: 5, I: 5
+                Score: 25
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ff9933'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 50%
+              size: 10% 10%
+              scale: 1
+              text: |
+                Medium Risk Example
+
+                L: 3, I: 3
+                Score: 9
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 30% 70%
+              size: 10% 10%
+              scale: 1
+              text: |
+                Low Risk Example
+
+                L: 1, I: 1
+                Score: 1
+              pinned: true
+      - tooltip: Prioritization Matrix
+        icon: icons/6.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              scale: 1
+              text: >
+                PRIORITIZATION MATRIX
+
+                Identify items to be prioritized (tasks, features, initiatives).
+                Assess each item based on effort required (Low to High) and
+                impact expected (Low to High). Position each item on the matrix
+                accordingly. Focus on high-impact, low-effort items first (Quick
+                Wins).
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 75% 30%
+              size: 20% 10%
+              scale: 1
+              text: |
+                QUICK WINS
+                (High Impact, Low Effort)
+
+                Do these first!
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffcc00'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 75% 70%
+              size: 20% 10%
+              scale: 1
+              text: |
+                MAJOR PROJECTS
+                (High Impact, High Effort)
+
+                Plan these carefully
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#e6332a'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 25% 30%
+              size: 20% 10%
+              scale: 1
+              text: |
+                FILL-INS
+                (Low Impact, Low Effort)
+
+                Do these if time permits
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#92278f'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 25% 70%
+              size: 20% 10%
+              scale: 1
+              text: |
+                THANKLESS TASKS
+                (Low Impact, High Effort)
+
+                Avoid these if possible
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 90%
+              size: 20% 5%
+              scale: 1
+              text: |
+                EFFORT →
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 50%
+              size: 5% 20%
+              scale: 1
+              text: |
+                IMPACT ↑
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 50%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Item Template
+
+                Name: [Item Name]
+                Description: [Brief description]
+                Effort: [Low/Medium/High]
+                Impact: [Low/Medium/High]
+                Owner: [Name]
+              pinned: false
+      - tooltip: Brainstorming/Ideation
+        icon: icons/7.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 5% 0%
+              size: 90% 10%
+              scale: 1
+              text: >
+                BRAINSTORMING/IDEATION
+
+                Start with the central topic and add ideas around it. Group
+                related ideas by color. Use the template notes to add new ideas.
+                There are no bad ideas during brainstorming - capture everything
+                and evaluate later.
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffffff'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 50% 50%
+              size: 20% 15%
+              scale: 1
+              text: |
+                CENTRAL TOPIC
+
+                [Replace with your challenge, question, or problem statement]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 25% 25%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Category 1
+
+                [Category Name]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 15%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 1
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#3aaa34'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 25%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 2
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#00adef'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 75% 25%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Category 2
+
+                [Category Name]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#00adef'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 85% 15%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 1
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#00adef'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 85% 25%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 2
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffcc00'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 25% 75%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Category 3
+
+                [Category Name]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffcc00'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 75%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 1
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#ffcc00'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 15% 85%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 2
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#92278f'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 75% 75%
+              size: 15% 10%
+              scale: 1
+              text: |
+                Category 4
+
+                [Category Name]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#92278f'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 85% 75%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 1
+
+                [Description]
+              pinned: true
+          - name: create
+            parameters:
+              type: note
+              color: '#92278f'
+              coordinate-system: viewport
+              coordinate-offset: none
+              location: 85% 85%
+              size: 10% 8%
+              scale: 1
+              text: |
+                Idea 2
+
+                [Description]
+              pinned: true
+  - tooltip: Assets
+    icon: icons/folder.png
+    items:
+      - tooltip: Documents
+        icon: icons/documents.png
+        items:
+          - tooltip: MT Cell User Manual
+            icon: icons/cell-guide.png
+            actions:
+              - name: create
+                parameters:
+                  type: pdf
+                  source: content/MultiTaction Cell User Manual.pdf
+                  scale: 0.33
+          - tooltip: MT Canvus 1.7 User Manual
+            icon: icons/canvus-user-guide.png
+            actions:
+              - name: create
+                parameters:
+                  type: pdf
+                  source: content/MT Canvus 1.7 User Manual.pdf
+                  scale: 0.33
+      - tooltip: Logos
+        icon: icons/logos.png
+        items:
+          - tooltip: MultiTaction Logo
+            icon: icons/multitaction.png
+            actions:
+              - name: create
+                parameters:
+                  type: image
+                  source: content/multitaction-logo.png
+                  scale: 0.33
+          - tooltip: Flex Logo
+            icon: icons/flex.png
+            actions:
+              - name: create
+                parameters:
+                  type: image
+                  source: content/flex-logo.png
+                  scale: 0.33
+          - tooltip: IBM Logo
+            icon: icons/ibm.png
+            actions:
+              - name: create
+                parameters:
+                  type: image
+                  source: content/ibm-logo.png
+                  scale: 0.33
+          - tooltip: InFocus Logo
+            icon: icons/infocus.png
+            actions:
+              - name: create
+                parameters:
+                  type: image
+                  source: content/infocus-logo.png
+                  scale: 0.33
+      - tooltip: Videos
+        icon: icons/video.png
+        items:
+          - tooltip: KPMG Insight Centers
+            icon: icons/kpmg.png
+            actions:
+              - name: create
+                parameters:
+                  type: video
+                  source: content/KPMG.mp4
+                  scale: 0.5
+          - tooltip: MultiTaction Performance
+            icon: icons/multitaction.png
+            actions:
+              - name: create
+                parameters:
+                  type: video
+                  source: content/Performance Video.mp4
+                  scale: 0.5
+          - tooltip: Toronto Raptors
+            icon: icons/ibm.png
+            actions:
+              - name: create
+                parameters:
+                  type: video
+                  source: content/Toronto Raptors.mp4
+                  scale: 0.5
+  - tooltip: Notes
+    icon: icons/notes.png
+    items:
+      - tooltip: Transparent Note
+        icon: icons/note-transparent.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: transparent
+              coordinate-offset: finger
+              origin: 0.5, 0.5
+              location: 0, 0
+              text: Transparent Note - Take Care Not To Lose Me.
+      - tooltip: Create Rainbow Notes
+        icon: icons/note-rainbow.png
+        actions:
+          - name: create
+            parameters:
+              type: note
+              color: red
+              coordinate-offset: finger
+              location: 0, 0
+              size: 150, 150
+              text: Red - Richard
+          - name: create
+            parameters:
+              type: note
+              color: orange
+              coordinate-offset: finger
+              location: 120, -50
+              size: 150, 150
+              text: Orange - Of
+          - name: create
+            parameters:
+              type: note
+              color: yellow
+              coordinate-offset: finger
+              location: 240, -100
+              size: 150, 150
+              text: Yellow - York
+          - name: create
+            parameters:
+              type: note
+              color: green
+              coordinate-offset: finger
+              location: 360, -150
+              size: 150, 150
+              text: Green - Gave
+          - name: create
+            parameters:
+              type: note
+              color: blue
+              coordinate-offset: finger
+              location: 480, -100
+              size: 150, 150
+              text: Blue - Battle
+          - name: create
+            parameters:
+              type: note
+              color: indigo
+              coordinate-offset: finger
+              location: 600, -50
+              size: 150, 150
+              text: Indigo - In
+          - name: create
+            parameters:
+              type: note
+              color: violet
+              coordinate-offset: finger
+              location: 720, 0
+              size: 150, 150
+              text: Violet - Vain
+  - tooltip: Web Sites
+    icon: icons/browser.png
+    items:
+      - tooltip: MultiTaction
+        icon: icons/multitaction.png
+        actions:
+          - name: create
+            parameters:
+              type: browser
+              url: https://www.multitaction.com
+              origin: 0.5, 0.5
+              size: 1366px, 768px
+              scale: 0.5
+      - tooltip: Web UI
+        icon: icons/ai-me.png
+        actions:
+          - name: create
+            parameters:
+              type: browser
+              url: http://webui.canvusmultisite.com
+              origin: 0.5, 0.5
+              size: 1366px, 768px
+              scale: 0.5
+              pinned: true
+      - tooltip: Advanced
+        icon: icons/more-browsers.png
+        items:
+          - tooltip: 4:3 Sizes
+            icon: icons/4-3.png
+            items:
+              - tooltip: 800 x 600
+                icon: icons/1.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 800px, 600px
+                      scale: 0.33
+              - tooltip: 1024 x 768
+                icon: icons/2.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1024px, 768px
+                      scale: 0.33
+              - tooltip: 1280 x 1024
+                icon: icons/3.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1280px, 1024px
+                      scale: 0.33
+          - tooltip: Widescreen
+            icon: icons/16-9.png
+            items:
+              - tooltip: 1280 x 720
+                icon: icons/1.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1280px, 720px
+                      scale: 0.33
+              - tooltip: 1366 x 768
+                icon: icons/2.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1366px, 768px
+                      scale: 0.33
+              - tooltip: 1440 x 900
+                icon: icons/3.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1440px, 900px
+                      scale: 0.33
+              - tooltip: 1920 x 1080
+                icon: icons/4.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 1920px, 1080px
+                      scale: 0.33
+              - tooltip: 3840 x 2160
+                icon: icons/5.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 3840px, 2160px
+                      scale: 0.33
+          - tooltip: Ultrawide
+            icon: icons/21-9.png
+            items:
+              - tooltip: 2560 x 1080
+                icon: icons/1.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 2560px, 1080px
+                      scale: 0.33
+              - tooltip: 5120 x 2160
+                icon: icons/2.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 5120px, 2160px
+                      scale: 0.33
+          - tooltip: MT Sizes
+            icon: icons/mt-sizes.png
+            items:
+              - tooltip: 3240 x 1920 (3x1)
+                icon: icons/1.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 3240px, 1920px
+                      scale: 0.33
+              - tooltip: 5400 x 1920 (5x1)
+                icon: icons/2.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 5400px, 1920px
+                      scale: 0.33
+              - tooltip: 5760 x 2160 (3x2)
+                icon: icons/3.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://gsk.com
+                      origin: 0.5, 0.5
+                      size: 2680px, 1080px
+                      scale: 0.5
+          - tooltip: Mobile (Portrait)
+            icon: icons/mobile.png
+            items:
+              - tooltip: iPhone 8
+                icon: icons/1.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 375px, 667px
+                      scale: 0.33
+              - tooltip: iPhone 12
+                icon: icons/2.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 390px, 844px
+                      scale: 0.33
+              - tooltip: Pixel 8
+                icon: icons/3.png
+                actions:
+                  - name: create
+                    parameters:
+                      type: browser
+                      url: https://whatismyres.com/
+                      origin: 0.5, 0.5
+                      size: 448px, 998px
+                      scale: 0.33

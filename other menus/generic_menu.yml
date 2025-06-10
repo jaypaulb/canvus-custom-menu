@@ -1,0 +1,7 @@
+tooltip: 'Custom Menu'
+icon: 'icons/custom-menu.png'
+items:
+  # Notes Section
+  - tooltip: 'Notes'
+    icon: 'icons/note.png'
+    items: 
