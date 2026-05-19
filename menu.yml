@@ -2437,7 +2437,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 800px, 600px
                       scale: 0.33
@@ -2447,7 +2447,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1024px, 768px
                       scale: 0.33
@@ -2457,7 +2457,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1280px, 1024px
                       scale: 0.33
@@ -2470,7 +2470,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1280px, 720px
                       scale: 0.33
@@ -2480,7 +2480,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1366px, 768px
                       scale: 0.33
@@ -2490,7 +2490,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1440px, 900px
                       scale: 0.33
@@ -2500,7 +2500,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 1920px, 1080px
                       scale: 0.33
@@ -2510,7 +2510,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 3840px, 2160px
                       scale: 0.33
@@ -2523,7 +2523,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 2560px, 1080px
                       scale: 0.33
@@ -2533,7 +2533,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 5120px, 2160px
                       scale: 0.33
@@ -2546,7 +2546,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 3240px, 1920px
                       scale: 0.33
@@ -2556,7 +2556,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 5400px, 1920px
                       scale: 0.33
@@ -2579,7 +2579,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 375px, 667px
                       scale: 0.33
@@ -2589,7 +2589,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 390px, 844px
                       scale: 0.33
@@ -2599,7 +2599,7 @@ items:
                   - name: create
                     parameters:
                       type: browser
-                      url: https://webui.canvusmultisite.com/PageRes.html
+                      url: https://jaypaulb.github.io/ScreenRes/
                       origin: 0.5, 0.5
                       size: 448px, 998px
                       scale: 0.33
