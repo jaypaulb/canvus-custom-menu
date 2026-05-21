@@ -52,7 +52,7 @@ items:
       #   * Purple notes (bottom-right): Threats
       # ======================================================================
       - tooltip: 'SWOT Analysis'
-        icon: 'icons\task_icons\1-swot.png'
+        icon: 'icons/task_icons/1-swot.png'
         actions:
           # Quadrant 1 - Top Left - Strengths (Light Pink/Red)
           - name: 'create'
@@ -296,7 +296,7 @@ items:
       # NB: Implemented with notes only (no template image required)
       # ======================================================================
       - tooltip: 'Business Model Canvas'
-        icon: 'icons\task_icons\2-business-model.png'
+        icon: 'icons/task_icons/2-business-model.png'
         actions:
           # Title Note
           - name: 'create'
@@ -2343,7 +2343,7 @@ items:
               location: 0, 0
               text: Transparent Note - Take Care Not To Lose Me.
       - tooltip: Create Rainbow Notes
-        icon: icons\rainbow-notes-stack.png
+        icon: icons/rainbow-notes-stack.png
         actions:
           - name: create
             parameters:
