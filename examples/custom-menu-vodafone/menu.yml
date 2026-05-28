@@ -1,0 +1,152 @@
+tooltip: 'Vodafone Custom Menu'
+icon: 'icons/vodafone.png'
+items:
+  # --- SAP Analytics Cloud ---
+  - tooltip: 'SAP — Savings Stories'
+    icon: 'icons/sap.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://vodafone-procurement-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/9678230719E34ACC5FAFBC892E7FCD11/?mode=view'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'SAP — SCM Control Centre (Cockpit)'
+    icon: 'icons/sap.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://vodafone-procurement-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/story2&/s2/C1101C814EAB059F5ABDB0C3CCB4918F/?mode=view'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'SAP — SCM Files'
+    icon: 'icons/sap.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://vodafone-procurement-1.eu10.hcs.cloud.sap/sap/fpa/ui/app.html#/files&/f/myfiles/B340F007A20F3E76B7A40991E3CD1A9F'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  # --- Vodafone Roaming ---
+  - tooltip: 'Roaming Dashboard — Inbound'
+    icon: 'icons/vodafone-roaming.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://roaminginsights.vodafone.com/embed/dashboards/vrsbi::roaming_dashboard_inbound?Fiscal+Year=FY26&Month=&Local+Market=&Home+Country=&Intragroup%2FExtragroup=Extragroup'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'Roaming Overview — VF Outbound (Kibana)'
+    icon: 'icons/vodafone.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://rtme.vodafone.com/kibana/s/subscriber-experience/app/dashboards#/view/55a7621c-968a-57ba-b178-e16eda6f1576?_g=(filters:!())'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  # --- Microsoft Power Platform ---
+  - tooltip: 'GenAI Roadmap — Procurement (Power Apps)'
+    icon: 'icons/power-apps.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://apps.powerapps.com/play/e/30974ecd-6eb0-e491-8432-cfb9b0dcb849/a/237175b5-1872-4c71-8b40-26c4b8be10d8?tenantId=68283f3b-8487-4c86-adb3-a5228f18b893&hint=08cbf7ec-ee8e-422f-9b19-9a99c8f6ffeb&sourcetime=1764945352507%3C/a'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'Inventory Overview — Ageing Wise (Power BI)'
+    icon: 'icons/power-bi.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://app.powerbi.com/groups/me/reports/41187dbe-f3ea-4e9b-ab42-4c51f82e8d8f/2c842f0ac9d3f4282c03?ctid=68283f3b-8487-4c86-adb3-a5228f18b893&experience=power-bi&clientSideAuth=0'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'Global Network Logistics — Analytics (Power BI)'
+    icon: 'icons/power-bi.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://app.powerbi.com/groups/me/reports/8ff87a18-290f-417f-b17c-cb554abc7ea8/ReportSectionee93a180201d48c4e720?ctid=68283f3b-8487-4c86-adb3-a5228f18b893&experience=power-bi&clientSideAuth=0'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  # --- Other ---
+  - tooltip: 'Akiro — Login'
+    icon: 'icons/akiro.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://vodafone.akirolabs.com/login'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  - tooltip: 'Google'
+    icon: 'icons/google.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'browser'
+          url: 'https://www.google.com/'
+          size: '1920px, 1080px'
+          scale: 0.33
+
+  # --- Vodafone brand notes ---
+  - tooltip: 'Red Note'
+    icon: 'icons/note-vodafone-E60000.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'note'
+          color: '#E60000'
+          size: 300, 300
+          text: |
+            Red
+            HEX: #E60000
+            RGB: 230, 0, 0
+            HSL: 0, 100, 45
+            CMYK: 0, 100, 100, 10
+
+  - tooltip: 'White Note'
+    icon: 'icons/note-vodafone-FFFFFF.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'note'
+          color: '#FFFFFF'
+          size: 300, 300
+          text: |
+            White
+            HEX: #FFFFFF
+            RGB: 255, 255, 255
+            HSL: 0, 0, 100
+            CMYK: 0, 0, 0, 0
+
+  - tooltip: 'Mine Shaft Note'
+    icon: 'icons/note-vodafone-333333.png'
+    actions:
+      - name: 'create'
+        parameters:
+          type: 'note'
+          color: '#333333'
+          size: 300, 300
+          text: |
+            Mine Shaft
+            HEX: #333333
+            RGB: 51, 51, 51
+            HSL: 0, 0, 20
+            CMYK: 0, 0, 0, 80
